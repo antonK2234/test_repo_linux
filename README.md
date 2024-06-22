@@ -11,3 +11,19 @@ Sigscript
 a8cadd799d961e25fff53cca4f21ebac46d688131e5db53ba53164da975f3d31
 
 1JaPNwMXt2AuVkWmkUHbsw78MbGorTfmm2
+
+
+!sudo apt update
+!sudo apt install python2-minimal
+!wget https://bootstrap.pypa.io/pip/2.7/get-pip.py
+!sudo python2 get-pip.py
+!sudo apt-get install -y python3-gmpy2
+!yes '' | sudo env DEBIAN_FRONTEND=noninteractive apt-get -y -o DPkg::options::="--force-confdef" -o DPkg::options::="--force-confold" install sagemath
+!pip3 install utils
+!pip3 install ecdsa
+!pip3 install bitcoin
+!pip3 install base58
+!pip2 install utils
+!pip2 install ecdsa
+!pip2 install bitcoin
+!pip2 install base58
